@@ -1,655 +1,233 @@
-.header {
-    display: flex;
-    background-image: url(/Users/nastya/Desktop/Nastya/Img/Bitmap.png);
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    min-width: 50%;
-    min-height: 50%;
-    background-size: cover;
-}
-
 .container {
-    background-image: url(Users/nastya/Desktop/Nastya/Img/Bitmap.png);
-    display: flex;
+    background-image: url('/Users/nastya/Desktop/Project/image/Rectangle .png');
     position: absolute;
-    width: 149px;
-    height: 79x;
-    left: 164px;
-    top: 23px;
-    color: #FFFFFF;
-    font-size: 30px;
-    font-style: normal;
-}
-
-.Webovio_logo {
-    display: flex;
-    position: absolute;
-    width: 35px;
-    height: 25px;
-    left: -50px;
-    top: 27.27px;
-    padding-top: 10px;
-}
-
-.Webovio_logo2 {
-    position: absolute;
-    width: 35px;
-    height: 25px;
-    left: -62px;
-    top: 27.27px;
-    padding-top: 10px;
-}
-
-.oval {
-    position: absolute;
-    width: 40px;
-    height: 41px;
-    left: 891px;
-    top: 48px;
-    border-radius: 50px;
-    background: #F5F6F7;
-}
-
-.burger {
-    position: absolute;
-    display: flex;
-    margin-left: 900px;
-    background-color: black;
-    top: 75px;
-    width: 5px;
+    width: 1800px;
+    height: 800px;
+    left: 0px;
+    top: 0px;
 
 }
 
-.burger2 {
+.list_1 {
     position: absolute;
-    display: flex;
-    margin-left: 900px;
-    top: 64px;
-    background-color: #000;
-}
 
-.burger3 {
-    position: absolute;
-    display: flex;
-    margin-left: 900px;
-    top: 55px;
-    background-color: #000;
-
-}
-
-.main_tittle {
-    position: absolute;
-    display: flex;
-    height: 21px;
-    margin-left: 25px;
-    right: 83.77%;
-    top: 220px;
-    font-family: 'Poppins';
+    font-family: 'ReformaGroteskMediumC';
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
+    top: 40px;
+    left: 150px;
+    font-size: 13px;
+    line-height: 120%;
+    color: #fff;
+    width: 100px;
+    height: 29px;
+}
+
+.list_2 {
+    position: absolute;
+
+    font-family: 'ReformaGroteskMediumC';
+    font-style: normal;
+    font-weight: 400;
+    top: 40px;
+    margin-left: 250px;
+    margin-right: 20px;
+    font-size: 13px;
+    line-height: 120%;
     color: #fff;
 
 }
 
-.tittle {
+.list_3 {
     position: absolute;
     display: flex;
-    margin-left: 25px;
-    left: 68px;
-    top: 240px;
-    bottom: 35.68%;
-
-    font-family: 'Poppins';
     font-style: normal;
-    font-weight: 600;
-    font-size: 40px;
-    line-height: 14px;
+    font-weight: 400;
+    left: 440px;
+    font-size: 13px;
+    line-height: 100%;
     color: #fff;
+    width: 190px;
+    height: 10px;
+    top: 43px;
 }
 
-.subtittle {
+.list_4 {
     position: absolute;
     display: flex;
-    left: 90px;
-    right: 5.68%;
-    top: 73.15%;
-    bottom: 16.5%;
-
-    font-family: 'Poppins';
-    font-style: normal;
-
-    font-size: 16px;
-    line-height: 14px;
-    color: #fff
-}
-
-.btn {
-    position: absolute;
-    display: flex;
-    height: 24px;
-    left: 100px;
-    right: 81.49%;
-    top: 650px;
-
-    font-family: 'FontAwesome';
+    font-family: 'ReformaGroteskMediumC';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 18px;
-    text-decoration-line: underline;
-    color: #FFD723;
-    ;
-}
-
-.info_tittle {
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 80px;
-    right: 0%;
-    top: 730px;
-    color: #4D533C;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 15px;
-}
-
-.hero2 {
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 90px;
-    top: 900px;
-    text-transform: uppercase;
-    color: #4D533C;
-    font-size: 10px;
-    line-height: 10px;
-}
-
-.hero3 {
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 300px;
-
-    top: 900px;
-    text-transform: uppercase;
-
-    color: #4D533C;
-    ;
-    font-size: 10px;
-    line-height: 10px;
-}
-
-.hero4 {
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 500px;
-    top: 900px;
-    text-transform: uppercase;
-    color: #4D533C;
-    font-size: 10px;
-    line-height: 10px;
-}
-
-.hero5 {
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 700px;
-    top: 900px;
-    text-transform: uppercase;
-    color: #4D533C;
-    font-size: 10px;
-    line-height: 10px;
-}
-
-.text {
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 89px;
-    top: 970px;
-    text-transform: uppercase;
-    color: rgba(33, 56, 66, 0.6);
-    ;
-    font-size: 7px;
-    line-height: 10px;
-}
-
-.text_title {
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 300px;
-    top: 970px;
-    text-transform: uppercase;
-    color: rgba(33, 56, 66, 0.6);
-    ;
-    font-size: 7px;
-    line-height: 10px;
-}
-
-.text_title1 {
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 500px;
-    top: 970px;
-    text-transform: uppercase;
-    color: rgba(33, 56, 66, 0.6);
-    ;
-    font-size: 7px;
-    line-height: 10px;
-}
-
-.text_title2 {
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 700px;
-    top: 970px;
-    text-transform: uppercase;
-    color: rgba(33, 56, 66, 0.6);
-    ;
-    font-size: 7px;
-    line-height: 10px;
-}
-
-.link_subtitle {
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: -5px;
-    top: 400px;
-    color: #4D533C;
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 15px;
-}
-
-.link_subtitle_1 {
-    color: #4D533C;
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 200px;
-    top: 400px;
-    font-family: 'Poppins';
-    font-weight: 700;
-    line-height: 15px;
-}
-
-.link_subtitle_3 {
-    color: #4D533C;
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 400px;
-    top: 400px;
-    font-family: 'Poppins';
-    font-weight: 700;
-    line-height: 15px;
-}
-
-.link_subtitle_4 {
-    color: #4D533C;
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 400px;
-    top: 400px;
-    font-family: 'Poppins';
-    font-weight: 700;
-    line-height: 15px;
-}
-
-.btn_1 {
-    color: #FFD723;
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 90px;
-    top: 659px;
-
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 15px;
-}
-
-.btn_2 {
-    color: #4D533C;
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 100px;
-    top: 670px;
-
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 15px;
-}
-
-.btn_3 {
-    color: #4D533C;
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 100px;
-    top: 670px;
-
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 15px;
-}
-
-.btn_4 {
-    color: #4D533C;
-    position: absolute;
-    display: flex;
-    height: 92px;
-    left: 300px;
-    top: 670px;
-
-    font-family: 'Poppins';
-    font-weight: 700;
-    font-size: 10px;
-    line-height: 15px;
-}
-
-.card {
-    position: absolute;
-    width: 800px;
-    height: 300px;
-    left: 70px;
-    top: 1200px;
-
-    background: #FAFAFA;
-    box-shadow: 30px 100px 90px rgba(0, 0, 0, 0.145947);
-}
-
-.card_desc {
-    display: flex;
-    justify-content: center;
-    position: absolute;
-    left: 100px;
-    top: 60px;
-    bottom: 60.03%;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 30px;
-    color: #4D533C;
-}
-
-.btn_card {
-    position: absolute;
-    height: 24px;
-    left: 0%;
-    top: 160px;
-    font-family: 'FontAwesome';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 18px;
-    text-decoration-line: underline;
-    color: #D4D6D4;
+    top: 43px;
+    left: 645px;
+    font-size: 13px;
+    line-height: 120%;
+    color: #fff;
+    width: 130px;
+    height: 29px;
 }
 
 .image {
-    display: flex;
     position: absolute;
-    width: 1280px;
-    height: 600px;
-    left: 1px;
-    top: 1400px;
-    background: #4F553D;
-}
+    width: 483px;
+    height: 188px;
+    left: 3px;
+    top: 150px;
 
-.img {
-    position: absolute;
-    display: flex;
-    color: #50583B;
-    position: absolute;
-    width: 1280px;
-    height: 585px;
-    left: 1px;
-    right: 10px;
-    top: 7px;
-}
-
-.name {
-    position: absolute;
-    color: #B6C197;
-    top: 1560px;
-    left: 200px;
-    font-family: 'Poppins';
     font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
+    font-weight: 700;
+    font-size: 150px;
+    line-height: 125%;
 }
 
-.phone {
+.burger_1 {
     position: absolute;
-    color: #FFFFFF;
-    top: 1600px;
-    left: 200px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
+    width: 40px;
+    height: 3px;
+    left: 1568px;
+    top: 42px;
+    background: #DB3138;
 }
 
-.name2 {
+.burger_2 {
     position: absolute;
-    color: #B6C197;
-    top: 1560px;
-    left: 400px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
+    width: 40px;
+    height: 3px;
+    left: 1558px;
+    top: 53px;
+    background: #DB3138;
 }
 
-.adress {
+.burger_3 {
     position: absolute;
-    color: #FFFFFF;
-    top: 1600px;
-    left: 400px;
-    font-family: 'Poppins';
+    width: 40px;
+    height: 3px;
+    left: 1568px;
+    top: 64px;
+    background: #DB3138;
+}
+
+.red_logo {
+
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 811px;
+    top: 380px;
+}
+
+.red_logo_1 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 852px;
+    top: 380px;
+}
+
+.red_logo_2 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 897.14px;
+    top: 380px;
+}
+
+.red_logo_3 {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 942.21px;
+    top: 380px;
+}
+
+.fish {
+    position: absolute;
+    width: 748px;
+    height: 96px;
+    left: 550px;
+    top: 415px;
     font-style: normal;
-    font-weight: 400;
-    font-size: 10px;
-    line-height: 15px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff
 }
 
 .services {
-    text-transform: uppercase;
     position: absolute;
-    width: 167px;
-    height: 38px;
-    left: 200px;
-    top: 1700px;
-    color: #FFFFFF;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 38px;
+    width: 100px;
+    height: 55px;
+    left: 888px;
+    top: 545px;
 }
 
 .services_1 {
-    text-transform: uppercase;
     position: absolute;
-    width: 167px;
-    height: 30px;
-    left: 200px;
-    top: 1750px;
-    color: #B6C197;
-    font-family: 'Poppins';
+    color: #fff;
+    width: 200px;
+    height: 34px;
+    left: 868px;
+    top: 545px;
     font-style: normal;
     font-weight: 600;
-    font-size: 8px;
-    line-height: 20px;
-}
-
-.services_2 {
-    position: absolute;
-    color: #FFFFFF;
-    height: 38px;
-    left: 400px;
-    top: 1702px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 20px;
-}
-
-.services_3 {
-    position: absolute;
-    color: #B6C197;
-    height: 38px;
-    left: 400px;
-    top: 1745px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 22px;
-}
-
-.services_4 {
-    position: absolute;
-    color: #FFFFFF;
-    height: 38px;
-    left: 600px;
-    top: 1700px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 22px;
-}
-
-.services_5 {
-    position: absolute;
-    color: #B6C197;
-    height: 38px;
-    left: 600px;
-    top: 1745px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 10px;
-    line-height: 20px;
-}
-
-.services_6 {
-    position: absolute;
-    color: #FFFFFF;
-    height: 38px;
-    left: 800px;
-    top: 1700px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 20px;
-}
-
-.services_7 {
-    position: absolute;
-    color: #B6C197;
-    height: 38px;
-    left: 800px;
-    top: 1745px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 20px;
-}
-
-.mail {
-    position: absolute;
-    color: #FFFFFF;
-    height: 30px;
-    left: 800px;
-    top: 1790px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 700;
     font-size: 13px;
-    line-height: 20px;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
 }
 
-.image_history {
-    display: flex;
+.hero {
+
     position: absolute;
-    height: 15px;
-    left: 800px;
-    top: 1880px;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
+    display: flex;
+    max-width: 50px;
+    height: 1800px;
+    left: 0px;
+    top: 800px;
 }
 
-.logo_1 {
-    display: flex;
+.block {
     position: absolute;
-    color: #FFFFFF;
-    font-weight: 700;
-    height: 20px;
-    left: 250px;
-    top: 1933px;
-    font-size: 25px;
-    line-height: 20px;
+    width: 1920px;
+    height: 0px;
+    left: 0px;
+    top: 650px;
+    opacity: 0.5;
 }
 
-.Webovio_logo_1 {
-    display: flex;
+p {
     position: absolute;
-    height: 20px;
-    left: 210px;
-    top: 1960px;
-    font-size: 10px;
-    line-height: 20px;
+    width: 45px;
+    height: 25px;
+    left: 190px;
+    top: 14px;
+    color: #fff;
 }
 
-.Webovio_logo_3 {
-    display: flex;
+.red_fish {
     position: absolute;
-    height: 20px;
-    left: 200px;
-    top: 1960px;
-    font-size: 10px;
-    line-height: 20px;
+    width: 249px;
+    height: 68px;
+    left: 121px;
+    top: 48px;
+    color: #DB3138
 }
-
-.Webovio_logo_4 {
-    display: flex;
+.block_2{
     position: absolute;
-    height: 5px;
-    left: 340px;
-    top: 1973px;
-    font-size: 5px;
-    line-height: 20px;
+width: 1920px;
+height: 0px;
+left: 0px;
+top: 128px;
+}
+.line{
+    border-left: 3px solid rgb(244, 247, 244);
+    height: 128px;
+opacity: 0.5;
+position: absolute;
+ width: 10px;
+left: 411px;
+top: 657px;
+margin-top: 1px;
 }
